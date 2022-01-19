@@ -1,0 +1,32 @@
+@import "partials/variables";
+
+header {
+    display: flex;
+    height: 100px;
+    img {
+        padding: 5px 0px;
+        margin-right: 30px;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        line-height: 97px;
+        li {
+            margin: 0px 20px;
+            a {
+                text-decoration: none;
+                color: #6d534e;
+
+                font-weight: 700;
+                font-size: 17px;
+                letter-spacing: 1px;
+            }
+            &.active {
+                border-bottom: 3px solid $dodger-blue;
+                a {
+                    color: $dodger-blue;
+                }
+            }
+        }
+    }
+}

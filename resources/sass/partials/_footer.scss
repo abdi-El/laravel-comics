@@ -1,0 +1,28 @@
+footer {
+    background-color: #303030;
+    section {
+        display: flex;
+        justify-content: space-between;
+        padding: 23px 0px;
+        button {
+            border: 3px solid $dodger-blue;
+            font-size: 20px;
+            padding: 5px;
+            color: white;
+            background-color: transparent;
+        }
+        .socials {
+            display: flex;
+            align-items: center;
+            width: 30%;
+            h3 {
+                margin: 0px 10px;
+                color: $dodger-blue;
+                font-size: 25px;
+            }
+            img {
+                margin: 0px 10px;
+            }
+        }
+    }
+}
