@@ -15,4 +15,8 @@
 main {
     background-color: $main-color;
     color: white;
+    a {
+        text-decoration: none;
+        color: white;
+    }
 }

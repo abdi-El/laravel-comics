@@ -6,7 +6,7 @@
         img {
             position: relative;
             top: 100px;
-            border: 1px solid White;
+            border: 3px solid White;
         }
     }
     .info {
@@ -15,7 +15,9 @@
         padding: 150px 0px;
         .container {
             display: flex;
+            justify-content: space-between;
             .left {
+                width: 70%;
                 h2 {
                     color: #103e5e;
                 }
@@ -51,7 +53,11 @@
                 }
             }
             .right {
-                // width: 500px;
+                text-align: right;
+                width: 25%;
+                img {
+                    width: 100%;
+                }
             }
         }
     }

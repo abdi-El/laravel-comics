@@ -46,12 +46,12 @@ footer section button {
 footer section .socials {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 40%;
 }
 footer section .socials h3 {
   margin: 0px 10px;
   color: #0182f9;
-  font-size: 25px;
+  font-size: 20px;
 }
 footer section .socials img {
   margin: 0px 10px;
@@ -110,7 +110,7 @@ button.load-more {
 .comic-details .hero img {
   position: relative;
   top: 100px;
-  border: 1px solid White;
+  border: 3px solid White;
 }
 .comic-details .info {
   background-color: white;
@@ -119,6 +119,10 @@ button.load-more {
 }
 .comic-details .info .container {
   display: flex;
+  justify-content: space-between;
+}
+.comic-details .info .container .left {
+  width: 70%;
 }
 .comic-details .info .container .left h2 {
   color: #103e5e;
@@ -153,6 +157,13 @@ button.load-more {
   line-height: 25px;
   color: #948b86;
 }
+.comic-details .info .container .right {
+  text-align: right;
+  width: 25%;
+}
+.comic-details .info .container .right img {
+  width: 100%;
+}
 .comic-details .blue-bar {
   margin: 0;
 }
@@ -170,5 +181,9 @@ button.load-more {
 
 main {
   background-color: #1c1c1c;
+  color: white;
+}
+main a {
+  text-decoration: none;
   color: white;
 }

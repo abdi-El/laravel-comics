@@ -1,4 +1,5 @@
 @extends('layouts/main')
+@section('title', "Dc Comics | $comic[title]")
 @section('content')
         <section class="comic-details">
             <div class="hero">
@@ -19,7 +20,7 @@
                                 </span>
                             </div>
                             <div class="availability">
-                                <span>Check Availability &#10225;</span>
+                                <span>Check Availability <i class="fa-solid fa-caret-down"></i></span>
                             </div>
                         </div>
                         <p class="description">
@@ -27,7 +28,8 @@
                         </p>
                     </div>
                     <div class="right">
-                        {{-- <img src="{{asset('images/dc-logo.png')}}" alt="ads"> --}}
+                        <span>ADVERTISEMENT</span>
+                        <img src="{{asset('images/badv.jpg')}}" alt="ads">
                     </div>
                 </div>
             </div>

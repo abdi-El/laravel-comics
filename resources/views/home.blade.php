@@ -1,4 +1,5 @@
 @extends('layouts/main')
+@section('title', 'Dc Comics | Home')
 @section('content')
     <section class="container">
         <div class="cards">
