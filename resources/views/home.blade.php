@@ -2,10 +2,10 @@
 @section('content')
     <section class="container">
         <div class="cards">
-            @foreach($comics as $comic)
+            @foreach($comics as $index => $comic)
             <div class="card">
                 <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                <h5>{{$comic['series']}}</h5>
+                <a href='{{route("comic/{$index}")}}'>{{$comic['series']}}</a>
             </div>
             @endforeach
         </div>
