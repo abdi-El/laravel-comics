@@ -102,6 +102,65 @@ button.load-more {
   background-color: #0182f9;
 }
 
+.comic-details .hero {
+  height: 300px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+.comic-details .hero img {
+  position: relative;
+  top: 100px;
+  border: 1px solid White;
+}
+.comic-details .info {
+  background-color: white;
+  color: black;
+  padding: 150px 0px;
+}
+.comic-details .info .container {
+  display: flex;
+}
+.comic-details .info .container .left h2 {
+  color: #103e5e;
+}
+.comic-details .info .container .left .price-availability {
+  color: white;
+  background-color: #55ba58;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  margin: 30px 0px;
+  padding: 0px 20px;
+}
+.comic-details .info .container .left .price-availability .price {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.comic-details .info .container .left .price-availability .price .color-g {
+  color: #95f593;
+}
+.comic-details .info .container .left .price-availability .availability {
+  height: 100%;
+  line-height: 50px;
+  padding: 0px 10px;
+  border-left: 2px solid darkgreen;
+}
+.comic-details .info .container .left .description {
+  font-size: 18px;
+  line-height: 25px;
+  color: #948b86;
+}
+.comic-details .blue-bar {
+  margin: 0;
+}
+.comic-details .blue-bar-big {
+  margin: 0;
+  height: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
